@@ -1,0 +1,16 @@
+langgraph
+langgraph-cli[inmem]
+langgraph-sdk
+langgraph-checkpoint-sqlite
+langsmith
+langchain-community
+langchain-core
+langchain-openai
+notebook
+tavily-python
+wikipedia
+python-dotenv
+chromadb
+pandas
+manim
+manim-slides[pyside6-full]
