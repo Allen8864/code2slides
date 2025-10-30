@@ -38,9 +38,23 @@ Right 2/3: Describe the main animation area (e.g., "A visualization of the stack
 
 animation_dsl: The specific, low-level Manim DSL verbs for what is changing in this step (e.g., Create(Text(...)), Indicate(object), object.animate.shift(RIGHT), Transform(obj1, obj2)).
 
-narration: A single, clear, and concise sentence explaining the CS concept for this step, as if a university professor were presenting it.
+narration: A single, clear, and concise sentence explaining the CS concept for this step, as if a university professor were presenting it (both what is happening, and why).
 
-Format Output: Consolidate all generated content into the strict JSON structure defined below.
+Additional rules
+
+The storyboard should at least have 5 steps, and maximum 15 steps.
+
+Each step introduces exactly one new concept or action.
+
+Use visual metaphors (arrows, highlights, glowing effects, checkmarks, or color changes) to make abstract concepts intuitive.
+
+The final step must summarize the overall process in plain language, not just show the result.
+
+To aid understanding, include at least one step (or more if useful) that illustrates a non-final or alternative path — such as a failed condition, a comparison that doesn’t match, or an intermediate state — so the storyboard shows the process, not just the final result.
+
+Format Output
+
+Consolidate all generated content into the strict JSON structure defined below.
 
 JSON Structure (Strict)
 
