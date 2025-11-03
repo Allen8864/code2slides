@@ -1,0 +1,50 @@
+1. Binary search trees
+2. Merge sort
+3. DNS Resolution
+4. K-Means Clustering
+5. Hash functions
+6. Relational Databases and SQL
+7. Object Oriented Programming
+8. Exception Handling
+9. A* Search Algorithm
+10. Recursion
+11. Backtracking
+12. Dynamic Programming
+13. Graph Algorithms
+14. RSA Encryption
+15. Compilation vs Interpretation
+16. Version Control (Git)
+17. Concept of views in Databases
+18. API Design
+19. Pointers and references
+20. IP Adressing
+21. DDoS Attacks
+22. OSI Model
+23. Agile vs Waterfall Methodologies
+24. Cloud Computing
+25. Switching vs Routing
+26. Firewalls
+27. RAM
+28. Clock speed and overclocking
+29. Virtual Memory
+30. System Bus
+31. Responsive Design
+32. State Management in Web Apps
+33. Caching Mechanisms
+34. Client-Server Architecture
+35. Cloud Servers
+36. Containers
+37. Ports
+38. NLP Basics
+39. Deep Learning Overview
+40. Computer Vision Fundamentals
+41. Agentic Systems
+42. Neural Networks
+43. Convolutional Neural Networks (CNNs)
+44. Recurrent Neural Networks (RNNs)
+45. Generative AI
+46. Transformer Models
+47. Attention Mechanism
+48. Prompt Engineering
+49. Fine-Tuning Techniques
+50. classes and objects in OOP
