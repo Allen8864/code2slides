@@ -34,6 +34,45 @@ You must adhere *strictly* to all of the following directives.
     * Conclude the step's animations with `self.next_slide()`.
 5.  Ensure all necessary Manim objects (e.g., `Text`, `MathTex`, `VGroup`, `Arrow`) are imported and used correctly.
 
+## Please follow these formatting rules when generating Manim code:
+1. LaTeX formatting:
+   - Wrap all mathematical expressions and environments (like \begin{aligned}, \log, \checkmark) in $...$ delimiters
+   - Example: Tex(r"$\begin{aligned} x & = 2 \\ y & = 3 \end{aligned}$")
+   - Regular text doesn't need $, only math notation
+
+2. Python indentation and structure:
+   - Use 4 spaces for indentation (not tabs)
+   - Align continuation lines with parentheses
+   - Example:
+     self.play(
+         Create(circle),
+         FadeIn(text),
+         run_time=2
+     )
+
+Here's a minimal working example showing both LaTeX and indentation:
+```python
+class Example(Slide):
+    def construct(self):
+        # Math expression with $
+        formula = MathTex(r"$f(x) = x^2$")
+        
+        # Aligned equations with $
+        equations = Tex(
+            r"$\begin{aligned}"
+            r"a &= 1 \\"
+            r"b &= 2"
+            r"\end{aligned}$"
+        )
+        
+        # Proper indentation in play
+        self.play(
+            Create(formula),
+            FadeIn(equations),
+            run_time=2
+        )
+```"
+
 ## EXAMPLE STORYBOARD INPUT
 
 Here is an example of the JSON format you will receive:
@@ -62,5 +101,4 @@ Here is an example of the JSON format you will receive:
 
 Task: Now, take the following JSON storyboard and generate the complete Manim Slides Python code.
 
-$storyboard
-
+$Storyboard

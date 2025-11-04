@@ -40,7 +40,7 @@ animation_dsl: The specific, low-level Manim DSL verbs for what is changing in t
 
 narration: A single, clear, and concise sentence explaining the CS concept for this step, as if a university professor were presenting it (both what is happening, and why).
 
-Additional rules
+Additional rules :
 
 The storyboard should at least have 5 steps, and maximum 15 steps.
 
