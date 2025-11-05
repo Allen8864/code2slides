@@ -4,7 +4,7 @@ from typing import Optional, Dict, Any
 class Config(BaseModel):
     storyboard_model: str = "anthropic/claude-sonnet-4.5"
     code_model: str = "anthropic/claude-sonnet-4.5"
-    storyboard_prompt_version: str = "v1"
+    storyboard_prompt_version: str = "v2"
     code_prompt_version: str = "v1"
     max_retries: int = 3
 
