@@ -17,7 +17,7 @@ Right two-thirds: Main canvas (core animation display)
 1. Generate a title based on the input topic, ending with "Example" (e.g., Binary Search Example)
 2. Generate a typical example that covers key scenarios as much as possible
 3. Break down the entire teaching process of the example into several reasonable animation steps
-4. For each step, referring to the screen layout, describe the animation process in detail using natural language, explaining what changes occur on the screen, which elements move or update, and ensure the description is clear and unambiguous
+4. For each step, referring to the screen layout, describe the animation process in detail using natural language, explaining what changes occur on the screen, which elements move or update, and ensure the description is clear and as precise as possible.
 5. The output must be a single JSON object, strictly following the structure below
 
 ## Notes
@@ -26,6 +26,8 @@ Right two-thirds: Main canvas (core animation display)
 - Each step should include main actions and temporal sequence (e.g., "first... then...")
 - In the animation, each element must respect its position within the grid layout. If spatial terms like “above,” “below,” or “next to” are used, ensure that elements do not overlap and that there is enough space for proper alignment or containment when elements interact.
 - Ensure that all elements maintain visual symmetry and that the overall composition remains clean and well-structured.
+- If multiple animations/movements are planned in a single step, precise to process them one at a time inside the step.
+- If a new element is added or an existing one is moved to a position, always specify that it should not appear on an other element, to prevent overlap.
 
 ## Output Format
 {

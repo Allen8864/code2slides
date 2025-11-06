@@ -26,6 +26,8 @@ Right two-thirds: Main canvas (core animation display)
 - Each step should include main actions and temporal sequence (e.g., "first... then...")
 - In the animation, each element must respect its position within the grid layout. If spatial terms like “above,” “below,” or “next to” are used, ensure that elements do not overlap and that there is enough space for proper alignment or containment when elements interact.
 - Ensure that all elements maintain visual symmetry and that the overall composition remains clean and well-structured.
+- If multiple animations/movements are planned in a single step, precise to process them one at a time inside the step.
+- If a new element is added or an existing one is moved to a position that’s already occupied on the grid, specify how the existing element should also move to prevent overlap.
 
 ## Output Format
 {
